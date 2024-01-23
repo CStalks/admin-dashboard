@@ -22,15 +22,16 @@ body {
 
 .main {
     display: grid;
-    grid-template-rows: 15% 85%;
+    grid-template-rows: 20% 85%;
     grid-column: 2;
     grid-row: span;
 }
 
 .header {
     display: grid;
-    grid-template-rows: 70px 80px;
-    background: yellow;
+    grid-template-rows: 70px 70px;
+    background: white;
+    font-weight: bold;
 }
 
 .projects {
@@ -100,6 +101,7 @@ body {
     gap: 5px;
     align-items: center;
     font-size: 150%;
+    height: 100px;
 }
 
 .side-content2 {
@@ -119,23 +121,93 @@ body {
     align-items: center;
     font-size: 100%;
 }
-
+ 
 .first-header {
     display: grid;
-    grid-template-columns: 20px 20px 20px 20px 20px;
-    gap: 245px;
+    grid-template-columns: 650px 60px;
+    gap: 200px;
+    margin-top: 5px;
+    align-items: center;
+    margin-left: 50px;
 }
 
 .second-header {
     display: grid;
-    grid-template-columns: 20px 500px 20px 20px 20px;
-    gap: 85px;
+    grid-template-columns: 100px 100px;
+    gap: 620px;
+    margin-left: 50px;
 }
 
 input {
-    width: 400px;
+    width: 650px;
     height: 25px;
     border: none;
     border-radius: 1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: #e0f2fe;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 25px 650px;
+    gap: 10px;
+    width: 700px;
+}
+
+.top-icons {
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    gap: 55px;
+    align-items: center;
+}
+
+.profile1 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #0284c7;
+    ;
+}
+
+.profile2 {
+    border-radius: 50%;
+    width: 80px;
+    height: 75px;
+    background-color: #0284c7;
+}
+
+
+.sub-header1 {
+    display: grid;
+    grid-template-columns:  75px 65px;
+    height: 80px;
+    width: 300px;
+    gap: 20px;
+    align-items: center;
+}
+
+.username {
+    width: 200px;
+    height: 50px;
+    display: grid;
+    align-items: center;
+}
+
+.sub-header2 {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    gap: 100px;
+    width: 370px;
+    align-items: center;
+}
+
+.sub-header2 > div {
+    background-color: #0284c7;
+    height: 40px;
+    width: 100px;
+    border-radius: 13rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
 }
