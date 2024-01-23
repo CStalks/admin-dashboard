@@ -12,7 +12,7 @@ body {
 
 .side {
     display: grid;
-    grid-template-rows: 100px 200px 100px;
+    grid-template-rows: 60px 270px 150px;
     row-gap: 40px;
     background: #0284c7;
     grid-column: 1 / 2;
@@ -95,31 +95,31 @@ body {
 }
 
 .side-content1 {
-    background-color: #121e22;
     display: grid;
-    grid-template-columns: 45px 100px;
+    grid-template-columns: 60px 100px;
     gap: 5px;
     align-items: center;
     font-size: 150%;
-    height: 100px;
+    height: 70px;
+    margin-left: 20px;
 }
 
 .side-content2 {
-    background-color: #275f71;
     display: grid;
-    grid-template-columns: 45px 100px;
-    gap: 10px 5px;
+    grid-template-columns: 35px 100px;
+    gap: 30px 15px;
     align-items: center;
     font-size: 100%;
+    margin-left: 35px;
 }
 
 .side-content3 {
-    background-color: #56595a;
     display: grid;
-    grid-template-columns: 45px 100px;
-    gap: 5px;
+    grid-template-columns: 35px 100px;
+    gap: 30px 15px;
     align-items: center;
     font-size: 100%;
+    margin-left: 35px;
 }
  
 .first-header {
