@@ -178,7 +178,6 @@ input {
     width: 50px;
     height: 50px;
     background-color: #0284c7;
-    ;
 }
 
 .profile2 {
@@ -238,10 +237,11 @@ input {
     display: grid;
     grid-template-columns: 20px 20px 20px;
     justify-content: end;
-    align-items: center;
+    align-items: end;
     margin-right: 20px;
     gap: 10px;
-    height: 75px;
+    height: 50px;
+    width: 390px;
 }
 
 .main-context {
@@ -281,4 +281,9 @@ input {
 
 .title2 {
     font-weight: bold;
+}
+
+.icons-logo {
+    width: 100px;
+    background-color: rgb(0, 0, 0);
 }
