@@ -147,7 +147,7 @@ body {
 .second-header {
     display: grid;
     grid-template-columns: 100px 100px;
-    gap: 600px;
+    gap: 640px;
     margin-left: 50px;
 }
 
@@ -236,7 +236,7 @@ input {
 
 .other-icons {
     display: grid;
-    grid-template-columns: 25px 25px 25px;
+    grid-template-columns: 20px 20px 20px;
     justify-content: end;
     align-items: center;
     margin-right: 20px;
@@ -263,4 +263,22 @@ input {
     align-items: center;
     margin-bottom: 10px;
     margin-left: 10px;
+}
+
+.announcements {
+    width: 200px;
+    font-size: 90%;
+}
+
+.announcement {
+    margin: 10px;
+    padding: 2px;
+}
+
+.bottom-border {
+    border-bottom: black solid;
+}
+
+.title2 {
+    font-weight: bold;
 }
